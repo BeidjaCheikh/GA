@@ -1,7 +1,5 @@
 package ma.enset.ga.sequencial;
-
 import java.util.Random;
-
 public class GAApp {
 
     private double[] fitnessVal;

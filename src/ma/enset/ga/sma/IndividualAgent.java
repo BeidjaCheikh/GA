@@ -20,9 +20,7 @@ public class IndividualAgent extends Agent {
             sb.append(GENES.charAt(rnd.nextInt(GENES.length())));
         }
         individual = sb.toString();
-
         // Calculate the fitness
-
         addBehaviour(new OneShotBehaviour() {
             @Override
             public void action() {
